@@ -12,11 +12,11 @@ import cucumber.api.junit.Cucumber;
 		"json:src\\test\\resources\\Reports\\out.json", "junit:src\\test\\resources\\Reports\\cucumber.xml" },monochrome=true)
 public class TestRunner {
 
-	@AfterClass
-	public static void reportGeneration() {
-
-		JVMReport.generateJvmReport("src\\test\\resources\\Reports\\out.json");
-
-	}
+//	@AfterClass
+//	public static void reportGeneration() {
+//
+//		JVMReport.generateJvmReport("src\\test\\resources\\Reports\\out.json");
+//
+//	}
 
 }
