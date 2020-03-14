@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.477697">
-<testcase classname="To validate the Login Function" name="To validate the Login with Valid user name and Password" time="16.477697">
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.914685">
+<testcase classname="To validate the Login Function" name="To validate the Login with Valid user name and Password" time="15.914685">
 <failure message="java.lang.NullPointerException&#13;&#10;&#9;at org.tsc.Stepdefinition.select_the_and_and_and(Stepdefinition.java:30)&#13;&#10;&#9;at ✽.Select  the &quot;Melbourne&quot; and &quot;Hotel Sunshine &quot; and &quot;Double&quot; and &quot;3&quot;(src/test/resources/Feature/Feature.feature:7)&#13;&#10;"><![CDATA[Given User open the url.....................................................passed
 When Enter user "Richards" and "Asdf*963."..................................passed
 And User click the Login....................................................passed

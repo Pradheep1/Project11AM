@@ -15,5 +15,5 @@ Feature: To validate the Login Function
     Then LogOut
 
     Examples: 
-      | Name     | Password  | Location     | Hotel                 | RoomType |  NoRooms | Check in date | Check out Date | Adult per room | Child per room | First Name | Last Name | Address                                     | Card No                  | Card type              | Month | Year | Cvv |
-      | Richards | Asdf*963. | Melbourne | Hotel Sunshine | Double       |        3          | 21/03/2020      | 25/03/2020        |              2            |              1            | Richard      | Sam            | Po Box 452,Salt Lake city,Uta | 1234567891234567 | American Express |     3 | 2022 | 452 |
+      | Name     | Password  | Location  | Hotel          | RoomType | NoRooms | Check in date | Check out Date | Adult per room | Child per room | First Name | Last Name | Address                       | Card No          | Card type        | Month | Year | Cvv |
+      | Richards | Asdf*963. | Melbourne | Hotel Sunshine | Double   |       3 | 21/03/2020    | 25/03/2020     |              2 |              1 | Richard    | Sam       | Po Box 452,Salt Lake city,Uta | 1234567891234567 | American Express |     3 | 2022 | 452 |
